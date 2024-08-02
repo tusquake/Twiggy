@@ -108,6 +108,7 @@
     color: white;
     border-radius: 5px;
 }
+
 @media (max-width:750px){
     .cart-bottom{
         flex-direction: column-reverse;

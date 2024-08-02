@@ -1,4 +1,6 @@
+import logo1 from './SwiftServe.png'
 import logo from './Twiggy.png'
+import about_banner from './about-banner.jpg'
 import basket_icon from './basket_icon.png'
 import header_img from './header_img.png'
 import menu_1 from './menu_1.png'
@@ -9,6 +11,7 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import play_icon from './play-icon.png'
 import search_icon from './search_icon.png'
 
 import food_1 from './food_1.png'
@@ -44,6 +47,7 @@ import food_7 from './food_7.png'
 import food_8 from './food_8.png'
 import food_9 from './food_9.png'
 
+import about_vid from './about-vid.mp4'
 import add_icon_green from './add_icon_green.png'
 import add_icon_white from './add_icon_white.png'
 import app_store from './app_store.png'
@@ -59,9 +63,11 @@ import rating_starts from './rating_starts.png'
 import remove_icon_red from './remove_icon_red.png'
 import selector_icon from './selector_icon.png'
 import twitter_icon from './twitter_icon.png'
+import video from './vid.mp4'
 
 export const assets = {
     logo,
+    logo1,
     basket_icon,
     header_img,
     search_icon,
@@ -79,7 +85,11 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    video,
+    about_banner,
+    play_icon,
+    about_vid
 }
 
 export const menu_list = [

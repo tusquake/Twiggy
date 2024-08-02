@@ -1,9 +1,15 @@
+.place{
+    display: flex;
+    flex-direction: row;
+}
 .place-order{
     display: flex;
+    flex-direction: row;
     align-items: start;
     justify-content: space-between;
     gap: 50px;
     margin-top: 100px;
+    animation: fadeIn 1s;
 }
 .place-order-left{
     width: 100%;
@@ -12,7 +18,7 @@
 .place-order-left .title{
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .place-order-left input{
     margin-bottom: 15px;
@@ -28,8 +34,26 @@
 }
 .place-order-right{
     width: 100%;
+    margin-top: 100px;
+    margin-left: 200px;
     max-width: max(40%,500px);
 }
 .place-order .cart-total button{
     margin-top: 30px;
+}
+
+@media (max-width:650px){
+    .place{
+        display: flex;
+        flex-direction: column;
+    }
+    .place-order-left{
+        margin-bottom: 50px;
+    }
+    .place-order-right{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        max-width: max(40%,500px);
+    }
 }
